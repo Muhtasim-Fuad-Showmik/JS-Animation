@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    background: rgb(40, 40, 40);
+    transition: background 0.75s ease-out;
+}
+
+button:hover {
+    background: rgb(87, 2, 2);
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    background: rgb(40, 40, 40);
+    transition: background 0.75s ease-out;
+}
+
+button:hover {
+    background: rgb(87, 2, 2);
+}
+
+nav {
+    min-height: 10vh;
+    background: rgb(87, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.nav-slide {
+    transform: translateY(-100%);
+    opacity: 0.5;
+}
+
+p {
+    opacity: 1;
+    transition: opacity 0.5s ease-out 0.5s;
+}
+
+.fade {
+    opacity: 0;
+}
