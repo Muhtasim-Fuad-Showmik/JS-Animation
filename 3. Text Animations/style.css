@@ -35,7 +35,12 @@ body {
     font-size: 2rem;
 }
 
+.cta-text h2 {
+    overflow: hidden;
+}
+
 .cta-text span {
+    display: block;
     padding: 0rem 0.4rem;
     text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px;
 }
